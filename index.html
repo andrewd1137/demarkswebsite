@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeMark's Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body class="frontPage" onload="showDivs()">
+    <div class="headingAndNavBar">
+        <a class="mainPageHeading" href="index.html">DeMark's Website</a>
+
+        <a class="navBarLinks" href="AboutMePage.html">About Me</a>
+        <a class="navBarLinks" href="EducationPage.html">My Education</a>
+        <a class="navBarLinks" href="CodingProjects.html">Code Projects</a>
+        <a class="navBarLinks" href="PastWorkExperiencePage.html">Past Work</a>
+        <div class="linksDropdownMenu">
+            <button class="dropdownButton">Git & Socials</button>
+            <div class="dropdownContent">
+                <a href="https://github.com/andrewd1137" target="_blank" rel="noopener noreferrer">Git</a>
+                <a href="https://www.youtube.com/channel/UCzEB3VjW96lx4koxaSQ16mQ/featured" target="_blank"
+                   rel="noopener noreferrer">Youtube</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slideshowContainer">
+        <button class="slidesButton leftSlideButton" onclick="plusDivs(-1)">&#10094;</button>
+
+        <img class="mySlides" src="images/freefall.jpeg" alt="Picture of me skydiving.">
+        <img class="mySlides" src="images/holyland.JPG" alt="Picture of me at Holy Land.">
+        <img class="mySlides" src="images/paintball.JPG" alt="Picture of me playing paintball.">
+        <img class="mySlides" src="images/grandCanyon.jpg" alt="Picture of me at the Grand Canyon.">
+
+        <button class="slidesButton rightSlideButton" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    height: 6000px;
+    width: 450px;
+}
+
+.columnAligned{
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer{
+    background-color: black;
+}
+
+.buttonsContainers{
+    display: flex;
+    flex-direction: row;
+}
+
+.screenText{
+    color: white;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.nonNumbers{
+    background-color: lightgray;
+    color: white;
+    border: 1px solid black;
+    flex: 1 1 0;
+    font-size: 30px;
+}
+
+.numbers{
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    flex: 1 1 0;
+    font-size: 30px;
+}
+
+.zero{
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    width: 225px;
+    font-size: 30px;
+}
+
+.operations{
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+    flex: 1 1 0;
+    font-size: 30px;
+}

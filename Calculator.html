@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcStyle.css">
+</head>
+<body>
+    <div class="columnAligned">
+        <div class="textContainer">
+            <h1 id="screenText" class="screenText">0</h1>
+        </div>
+
+        <div class="buttonsContainers">
+            <button id="clear" class="nonNumbers" onclick="clearCalc()">AC</button>
+            <button id="plusOrMinus" class="nonNumbers" onclick="posNegFunction()">+/-</button>
+            <button id="delete" class="nonNumbers" onclick="backspaceFunction()">⌫</button>
+            <button id="division" class="operations" onclick="divisionFunction()">÷</button>
+        </div>
+
+        <div class="buttonsContainers">
+            <button id="7" class="numbers" onclick="numberButtonClicked(7)">7</button>
+            <button id="8" class="numbers" onclick="numberButtonClicked(8)">8</button>
+            <button id="9" class="numbers" onclick="numberButtonClicked(9)">9</button>
+            <button id="multiply" class="operations" onclick="multiplicationFunction()">x</button>
+        </div>
+
+        <div class="buttonsContainers">
+            <button id="4" class="numbers" onclick="numberButtonClicked(4)">4</button>
+            <button id="5" class="numbers" onclick="numberButtonClicked(5)">5</button>
+            <button id="6" class="numbers" onclick="numberButtonClicked(6)">6</button>
+            <button id="subtract" class="operations" onclick="subtractionFunction()">-</button>
+        </div>
+
+        <div class="buttonsContainers">
+            <button id="1" class="numbers" onclick="numberButtonClicked(1)">1</button>
+            <button id="2" class="numbers" onclick="numberButtonClicked(2)">2</button>
+            <button id="3" class="numbers" onclick="numberButtonClicked(3)">3</button>
+            <button id="add" class="operations" onclick="additionFunction()">+</button>
+        </div>
+
+        <div class="buttonsContainers">
+            <button id="0" class="zero" onclick="numberButtonClicked(0)">0</button>
+            <button id="decimal" class="numbers" onclick="decimalButtonClicked('.')">.</button>
+            <button id="equals" class="operations" onclick="equalsFunction()">=</button>
+        </div>
+
+    </div>
+
+    <script src="calcMain.js"></script>
+
+</body>
+</html>
